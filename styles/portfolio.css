@@ -18,6 +18,23 @@
   color: #000;
 }
 
+.projects h2 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  line-height: normal;
+  color: #000;
+}
+
+.projects p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: var(--default-font-family);
+  opacity: 70%;
+}
+
 .hero p {
   font-family: var(--default-font-family);
   font-size: 36px;
@@ -41,4 +58,35 @@
   line-height: 27px;
   padding: 15px 30px;
   color: #fff;
+}
+
+.btn-branding-outline {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  font-family: var(--default-font-family);
+  text-decoration: none;
+}
+
+.projects {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+  .projects h2 {
+    font-size: 44px;
+  }
+  .projects p {
+    font-size: 14px;
+  }
+  .projects {
+    padding: 0;
+    text-align: center;
+  }
 }
