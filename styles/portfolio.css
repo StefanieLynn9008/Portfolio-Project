@@ -58,6 +58,7 @@
   line-height: 27px;
   padding: 15px 30px;
   color: #fff;
+  text-decoration: none;
 }
 
 .btn-branding-outline {
@@ -75,6 +76,50 @@
   padding: 120px 60px;
 }
 
+.about-section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: normal;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section img {
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 10px;
+}
+
+.about-me h2 {
+  font-size: 55px;
+  line-height: normal;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.about-me p {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 30px;
+  font-style: normal;
+  padding-bottom: 60px;
+}
+
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 50px;
@@ -88,5 +133,18 @@
   .projects {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .about-section h1 {
+    font-size: 50px;
+  }
+  .about-section h2 {
+    font-size: 44px;
+  }
+  .about-section p {
+    font-size: 14px;
   }
 }
