@@ -76,12 +76,12 @@
   padding: 120px 60px;
 }
 
-.about-section {
+.content-container {
   text-align: center;
   padding: 80px 20px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: normal;
   font-family: var(--heading-font-family);
@@ -89,12 +89,12 @@
   font-style: normal;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.about-section img {
+.content-container img {
   max-width: 600px;
   max-height: 600px;
   border-radius: 10px;
@@ -134,17 +134,17 @@
     padding: 0;
     text-align: center;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
-  .about-section h1 {
+  .content-container h1 {
     font-size: 50px;
   }
-  .about-section h2 {
+  .content-container h2 {
     font-size: 44px;
   }
-  .about-section p {
+  .content-container p {
     font-size: 14px;
   }
 }
